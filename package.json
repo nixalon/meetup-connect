@@ -1,0 +1,15 @@
+{
+  "name": "meetup-connect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QR code that lets people at meetups connect via LinkedIn or get my CV by email",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4"
+  }
+}
